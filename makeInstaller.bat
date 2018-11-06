@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\Inno Setup 5\iscc.exe" "./IncreIDLE Instalador.iss"
+iscc.exe "./IncreIDLE Instalador.iss"
