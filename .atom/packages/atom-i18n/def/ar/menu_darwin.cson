@@ -1,0 +1,325 @@
+Menu:
+  Atom:
+    value: "أتوم"
+    submenu:
+      "About Atom":
+        value: "عن أتوم"
+      "View License":
+        value: "إعرض الرخصة"
+      "Check for Update":
+        value: "تحقق من التحديثات"
+      "Preferences…":
+        value: "التفضيلات..."
+      "Config…":
+        value: "تهيئة..."
+      "Init Script…":
+        value: "نص البدء..."
+      "Keymap…":
+        value: "خارطة المفاتيح..."
+      "Snippets…":
+        value: "القصاصات..."
+      "Stylesheet…":
+        value: "ورقة الأنماط..."
+      "Install Shell Commands":
+        value: "ثبت أوامر الصدفة"
+      "Hide Atom":
+        value: "إخف أتوم"
+      "Hide Others":
+        value: "إخف الآخرين"
+      "Show All":
+        value: "أظهر الكل"
+      Quit:
+        value: "أترك"
+  File:
+    value: "ملف"
+    submenu:
+      "New Window":
+        value: "نافذة جديدة"
+      "New File":
+        value: "ملف جديد"
+      "Open…":
+        value: "إفتح..."
+      "Add Project Folder…":
+        value: "أضف مجلد مشروع..."
+      "Reopen Project":
+        value: "أعد فتح المشروع"
+        submenu:
+          "Clear Project History":
+            value: "إمسح تأريخ المشاريع"
+      "Reopen Last Item":
+        value: "أعد فتح العنصر الأخير"
+      Save:
+        value: "إحفظ"
+      "Save As…":
+        value: "إحفظ كـ..."
+      "Save All":
+        value: "إحفظ الكل"
+      "Close Tab":
+        value: "أغلق اللسان"
+      "Close Pane":
+        value: "أغلق الجانب"
+      "Close Window":
+        value: "أغلق النافذة"
+      "Close All Tabs":
+        value: "أغلق الألسنة جميعا"
+  Edit:
+    value: "تحرير"
+    submenu:
+      Undo:
+        value: "تراجع"
+      Redo:
+        value: "أعد"
+      Cut:
+        value: "قص"
+      Copy:
+        value: "إنسخ"
+      "Copy Path":
+        value: "إنسخ المسار"
+      Paste:
+        value: "إلصق"
+      "Select All":
+        value: "حدد الكل"
+      "Toggle Comments":
+        value: "بدل الأوامر"
+      Lines:
+        value: "الأسطر"
+        submenu:
+          Indent:
+            value: "البادئة"
+          Outdent:
+            value: "الخاتمة"
+          "Auto Indent":
+            value: "إبدأ آليا"
+          "Move Line Up":
+            value: "حرك السطر لأعلى"
+          "Move Line Down":
+            value: "حرك النص لأسفل"
+          "Duplicate Lines":
+            value: "ضاعف الأسطر"
+          "Delete Line":
+            value: "إحذف السطر"
+          "Join Lines":
+            value: "ضم الأسطر"
+      Columns:
+        value: "الأعمدة"
+        submenu:
+          "Move Selection Left":
+            value: "حرك المحدد جهة البداية"
+          "Move Selection Right":
+            value: "حرك المحدد جهة النهاية"
+      Text:
+        value: "النص"
+        submenu:
+          "Upper Case":
+            value: "إرفع الحالة"
+          "Lower Case":
+            value: "أخفض الحالة"
+          "Delete to End of Word":
+            value: "إخذف حتى نهاية الكلمة"
+          "Delete to Previous Word Boundary":
+            value: "إخذف حتى حد الكلمة السابق"
+          "Delete to Next Word Boundary":
+            value: "إحذف حتى حد الكلمة التالي"
+          "Delete Line":
+            value: "إحذف السطر"
+          Transpose:
+            value: "إقلب"
+      Folding:
+        value: "الطي"
+        submenu:
+          Fold:
+            value: "إطو"
+          Unfold:
+            value: "إبسط"
+          "Unfold All":
+            value: "إطو الكل"
+          "Fold All":
+            value: "إبسط الكل"
+          "Fold Level 1":
+            value: "إطو المستوى 1"
+          "Fold Level 2":
+            value: "إطو المستوى 2"
+          "Fold Level 3":
+            value: "إطو المستوى"
+          "Fold Level 4":
+            value: "إطو المستوى 4"
+          "Fold Level 5":
+            value: "إطو المستوى 5"
+          "Fold Level 6":
+            value: "إطو المستوى 6"
+          "Fold Level 7":
+            value: "إطو المستوى 7"
+          "Fold Level 8":
+            value: "إطو المستوى 8"
+          "Fold Level 9":
+            value: "إطو المستوى 9"
+      "Reflow Selection":
+        value: "أعد دفق المحدد"
+      Bookmark:
+        value: "العلامات"
+        submenu:
+          "View All":
+            value: "عرض الكل"
+          "Toggle Bookmark":
+            value: "بدل التعليم"
+          "Jump to Next Bookmark":
+            value: "إنتقل للعلامة التالية"
+          "Jump to Previous Bookmark":
+            value: "إنتقل للعلامة السابقة"
+      "Select Encoding":
+        value: "حدد الترميز"
+      "Go to Line":
+        value: "إذهب للسطر"
+      "Select Grammar":
+        value: "حدد النحو"
+  View:
+    value: "العرض"
+    submenu:
+      "Toggle Full Screen":
+        value: "بدل كامل الشاشة"
+      Panes:
+        value: "الجوانب"
+        submenu:
+          "Split Up":
+            value: "إقسم لأعلى"
+          "Split Down":
+            value: "إقسم لأسفل"
+          "Split Left":
+            value: "إقسم يسارا"
+          "Split Right":
+            value: "إقسم يمينا"
+          "Focus Next Pane":
+            value: "ركز على الجانب التالي"
+          "Focus Previous Pane":
+            value: "ركز على الجانب السابق"
+          "Focus Pane Above":
+            value: "ركز على الجانب الأعلى"
+          "Focus Pane Below":
+            value: "ركز على الجانب الأدنى"
+          "Focus Pane On Left":
+            value: "ركز على الجانب الأيسر"
+          "Focus Pane On Right":
+            value: "ركز على الجانب الأيمن"
+          "Close Pane":
+            value: "أغلق الجانب"
+      Developer:
+        value: "المطور"
+        submenu:
+          "Open In Dev Mode…":
+            value: "إفتح في وضع المطور..."
+          "Reload Window":
+            value: "أعد تحميل النافذة"
+          "Run Package Specs":
+            value: "شغل مواصفات الحزمة"
+          "Run Benchmarks":
+            value: "شغل المعايرات"
+          "Toggle Developer Tools":
+            value: "شغل وضع المطور"
+      "Increase Font Size":
+        value: "زد حجم النص"
+      "Decrease Font Size":
+        value: "أنقص حجم النص"
+      "Reset Font Size":
+        value: "أعد تعيين حجم النص"
+      "Toggle Soft Wrap":
+        value: "بدل اللف السلس"
+      "Toggle Command Palette":
+        value: "بدل لوحة الأوامر"
+      "Toggle Tree View":
+        value: "بدل العرض الشجري"
+  Selection:
+    value: "التحديد"
+    submenu:
+      "Add Selection Above":
+        value: "أضف المحدد أعلاه"
+      "Add Selection Below":
+        value: "أضف المحدد أدناه"
+      "Single Selection":
+        value: "تحديد فردي"
+      "Split into Lines":
+        value: "إقسم لأسطر"
+      "Select to Top":
+        value: "حدد حتى القمة"
+      "Select to Bottom":
+        value: "جدد حتى القاع"
+      "Select Line":
+        value: "حدد السطر"
+      "Select Word":
+        value: "حدد الكلمة"
+      "Select to Beginning of Word":
+        value: "حدد حتى بداية الكلمة"
+      "Select to Beginning of Line":
+        value: "حدد حتى بداية السطر"
+      "Select to First Character of Line":
+        value: "حدد حتى أول حرف في السطر"
+      "Select to End of Word":
+        value: "حدد حتى نهاية الكلمة"
+      "Select to End of Line":
+        value: "حدد حتى نهاية السطر"
+      "Select Inside Brackets":
+        value: "حدد ما بين الأقواس"
+  Find:
+    value: "الإيجاد"
+    submenu:
+      "Find in Buffer":
+        value: "جد في المحمل"
+      "Replace in Buffer":
+        value: "استبدل في المحمل"
+      "Select Next":
+        value: "حدد التالي"
+      "Select All":
+        value: "حدد الكل"
+      "Toggle Find in Buffer":
+        value: "بدل الإيجاد في المحمل"
+      "Find in Project":
+        value: "جد في المشروع"
+      "Toggle Find in Project":
+        value: "بدل الإيجاد في المشروع"
+      "Find All":
+        value: "جد الكل"
+      "Find Next":
+        value: "جد التالي"
+      "Find Previous":
+        value: "جد السابق"
+      "Replace Next":
+        value: "استبدل التالي"
+      "Replace All":
+        value: "إستبدل الكل"
+      "Clear History":
+        value: "إمسح التأريخ"
+      "Find Buffer":
+        value: "جد محمل"
+      "Find File":
+        value: "جد ملف"
+      "Find Modified File":
+        value: "جد ملف معدل"
+  Packages:
+    value: "الحزم"
+  Window:
+    value: "النافذة"
+    submenu:
+      Minimize:
+        value: "صغر"
+      Zoom:
+        value: "كبر"
+      "Bring All to Front":
+        value: "أحضر الكل للمقدمة"
+  Help:
+    value: "المساعدة"
+    submenu:
+      "Terms of Use":
+        value: "شروط الاستخدام"
+      Documentation:
+        value: "التوثيق"
+      Roadmap:
+        value: "خارطة الطريق"
+      "Frequently Asked Questions":
+        value: "الأسئلة المتكررة"
+      "Community Discussions":
+        value: "نقاشات المجتمع"
+      "Report Issue":
+        value: "أبلغ عن مشكلة"
+      "Search Issues":
+        value: "إبحث في المشاكل"
+      "Welcome Guide":
+        value: "دليل الترحيب"

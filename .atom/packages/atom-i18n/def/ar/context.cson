@@ -1,0 +1,120 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "تفحص العنصر"
+  "atom-text-editor":
+    "color-picker:open": "منتقي الألوان"
+    "minimap:toggle": "بدل الخريطة المصغرة"
+  "atom-text-editor, .overlayer":
+    "core:undo": "تراجع"
+    "core:redo": "أعد"
+    "core:cut": "قص"
+    "core:copy": "إنسخ"
+    "core:paste": "إلصق"
+    "core:delete": "إحذف"
+    "core:select-all": "حدد الكل"
+    "pane:split-up-and-copy-active-item": "إقسم لأعلى"
+    "pane:split-down-and-copy-active-item": "إقسم لأسفل"
+    "pane:split-left-and-copy-active-item": "إقسم يسارا"
+    "pane:split-right-and-copy-active-item": "إقسم يمينا"
+    "pane:close": "إغلق الجانب"
+  "atom-pane":
+    "pane:split-up-and-copy-active-item": "إقسم لأعلى"
+    "pane:split-down-and-copy-active-item": "إقسم لأسفل"
+    "pane:split-left-and-copy-active-item": "إقسم يسارا"
+    "pane:split-right-and-copy-active-item": "إقسم يمينا"
+    "pane:close": "إغلق الجانب"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "غير الترميز"
+    "spell-check:correct-misspelling": "صحح الهجاء"
+    "symbols-view:go-to-declaration": "إذهب إلى الإعلان"
+  ".overlayer":
+    "grammar-selector:show": "غير النحو"
+  ".image-view":
+    "image-view:reload": "أعد تحميل الصورة"
+  ".tab":
+    "tabs:close-tab": "أغلق اللسان"
+    "tabs:close-other-tabs": "أغلق الألسنة الأخرى"
+    "tabs:close-tabs-to-right": "أغلق الألسنة السابقة"
+    "tabs:close-tabs-to-left": "أغلق الألسنة التالية"
+    "tabs:close-saved-tabs": "أغلق الألسنة المحفوظة"
+    "tabs:close-all-tabs": "أغلق الألسنة جميعا"
+    "tabs:split-up": "إقسم للأعلى"
+    "tabs:split-down": "إقسم للأسفل"
+    "tabs:split-left": "إقسم يمينا"
+    "tabs:split-right": "إقسم يسارا"
+  ".tab.texteditor":
+    "tabs:open-in-new-window": "إفتح في نافذة جديدة"
+  ".tab.pending-tab":
+    "tabs:keep-pending-tab": "إحتفظ باللسان الجاري"
+  ".tab-bar":
+    "pane:reopen-closed-item": "أعد فتح اللسان المغلق"
+  ".tree-view .full-menu":
+    "tree-view:add-file": "ملف جديد"
+    "tree-view:add-folder": "مجلد جديد"
+    "tree-view:move": "أعد التسمية"
+    "tree-view:duplicate": "ضاعف"
+    "tree-view:remove": "إحذف"
+    "tree-view:copy": "إنسخ"
+    "tree-view:cut": "قص"
+    "tree-view:paste": "إلصق"
+    "tree-view:open-selected-entry-up": "إقسم لأعلى"
+    "tree-view:open-selected-entry-down": "إقسم لأسفل"
+    "tree-view:open-selected-entry-left": "إقسم يسارا"
+    "tree-view:open-selected-entry-right": "إقسم يمينا"
+    "application:add-project-folder": "أضف مجلد مشروع"
+    "tree-view:copy-full-path": "إنسخ كامل المسار"
+    "tree-view:copy-project-path": "إنسخ مسار المشروع"
+    "tree-view:open-in-new-window": "إفتح في نافذة جديدة"
+  '.tree-view .full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "إقسم لأعلى"
+    "tree-view:open-selected-entry-down": "إقسم لأسفل"
+    "tree-view:open-selected-entry-left": "إقسم يسارا"
+    "tree-view:open-selected-entry-right": "إقسم يمينا"
+  ".tree-view .full-menu .project-root > .header":
+    "tree-view:add-file": "ملف جديد"
+    "tree-view:add-folder": "مجلد جديد"
+    "tree-view:move": "أعد التسمية"
+    "tree-view:duplicate": "ضاعف"
+    "tree-view:remove": "إحذف"
+    "tree-view:copy": "إنسخ"
+    "tree-view:cut": "قص"
+    "tree-view:paste": "إلصق"
+    "tree-view:open-selected-entry-up": "إقسم لأعلى"
+    "tree-view:open-selected-entry-down": "إقسم لأسفل"
+    "tree-view:open-selected-entry-left": "إقسم يسارا"
+    "tree-view:open-selected-entry-right": "إقسم يمينا"
+    "application:add-project-folder": "إضافة مجلد مشروع"
+    "tree-view:remove-project-folder": "حذف مجلد مشروع"
+    "tree-view:copy-full-path": "إنسخ كامل المسار"
+    "tree-view:copy-project-path": "إنسخ مسار المشروع"
+    "tree-view:open-in-new-window": "إفتح في نافذة جديدة"
+  ".platform-darwin .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "إعرض في الموجد"
+  ".platform-win32 .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "إعرض في المستكشف"
+  ".platform-linux .tree-view .full-menu":
+    "tree-view:show-in-file-manager": "إعرض في مدير الملفات"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "إبحث في الدليل"
+  ".tree-view .multi-select":
+    "tree-view:remove": "إحذف"
+    "tree-view:copy": "إنسخ"
+    "tree-view:cut": "قص"
+    "tree-view:paste": "إلصق"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "إكشف في العرض الشجري"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:rename": "أعد التسمية"
+    "tree-view:reveal-active-file": "إكشف في العرض الشجري"
+  ".platform-darwin atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "إعرض في الموجد"
+  ".platform-win32 atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "إعرض في المستكشف"
+  ".platform-linux atom-pane[data-active-item-path] .tab.active":
+    "tree-view:show-current-file-in-file-manager": "إعرض في مدير الملفات"
+  ".platform-darwin atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "إعرض في الموجد"
+  ".platform-win32 atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "إعرض في المستكشف"
+  ".platform-linux atom-text-editor:not([mini])":
+    "tree-view:show-current-file-in-file-manager": "إعرض في مدير الملفات"

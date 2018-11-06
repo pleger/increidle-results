@@ -1,0 +1,433 @@
+Settings:
+  "tab-title": "設定"
+  menu: [
+    {
+      _label: "Core"
+      value: "コア設定"
+    }
+    {
+      _label: "Editor"
+      value: "エディタ設定"
+    }
+    {
+      _label: "System"
+      value: "System"
+    }
+    {
+      _label: "Keybindings"
+      value: "キーバインド"
+    }
+    {
+      _label: "Packages"
+      value: "パッケージ"
+    }
+    {
+      _label: "Themes"
+      value: "テーマ"
+    }
+    {
+      _label: "Updates"
+      value: "アップデート"
+    }
+    {
+      _label: "Install"
+      value: "インストール"
+    }
+  ]
+  "btn-open-config-folder": "設定フォルダを開く"
+  sectionHeadings: [
+    {_label: "Core Settings", value: "コア設定"}
+    {_label: "Editor Settings", value: "エディタ設定"}
+    {_label: "System Settings", value: "System Settings"}
+    {_label: "Keybindings", value: "キーバインド"}
+    {_label: "Installed Packages", value: "インストール済みのパッケージ"}
+    {_label: "Choose a Theme", value: "テーマの選択"}
+    {_label: "Installed Themes", value: "インストール済みのテーマ"}
+    {_label: "Install Packages", value: "パッケージのインストール"}
+    {_label: "Featured Packages", value: "おすすめのパッケージ"}
+    {_label: "Install Themes", value: "テーマのインストール"}
+    {_label: "Featured Themes", value: "おすすめのテーマ"}
+    {_label: "Available Updates", value: "利用可能なアップデート"}
+  ]
+  subSectionHeadings: [
+    {_label: "Invisible", value: "不可視文字"}
+    {_label: "Community Packages", value: "コミュニティパッケージ"}
+    {_label: "Core Packages", value: "コアパッケージ"}
+    {_label: "Development Packages", value: "開発パッケージ"}
+    {_label: "Git Packages", value: "Git パッケージ"}
+    {_label: "Community Themes", value: "コミュニティテーマ"}
+    {_label: "Core Themes", value: "コアテーマ"}
+    {_label: "Development Themes", value: "開発テーマ"}
+    {_label: "Git Themes", value: "Git テーマ"}
+  ]
+  settings: {
+    notes: [
+      {
+        _id: 'core-settings-note'
+        html: 'テキスト編集のふるまいとは関係のないコアな部分の設定項目です。個々のパッケージにも固有の設定項目が用意されている場合があるので、
+               こちらの <a class="link packages-open">パッケージリスト</a> からパッケージカードをクリックして設定をご確認ください。'
+      }
+      {
+        _id: 'editor-settings-note'
+        html: 'テキスト編集のふるまいに関する設定項目です。言語の基準によってはこれらの設定が上書きされる場合があるため、
+               こちらの <a class="link packages-open">パッケージリスト</a> からパッケージカードをクリックして設定をご確認ください。'
+      }
+    ]
+    controls: [
+      {
+        _id: 'core.allowPendingPaneItems'
+        title: "プレビュータブを使う"
+        desc: "ツリービューなどでファイルを選択した時にタブをプレビュー状態で開きます。
+               プレビュー時はタブ名が斜体となり、別のファイル選択時にタブが使い回されます。
+               ダブルクリックまたは編集を開始することでプレビュー状態が解除されます。"
+      }
+      {
+        _id: 'core.audioBeep'
+        title: "ビープ音を鳴らす"
+        desc: "処理が予期したとおりに実行されなかったり、結果が何も得られなかった場合にシステムのビープ音を鳴らします。"
+      }
+      {
+        _id: 'core.automaticallyUpdate'
+        title: "自動アップデート"
+        desc: "新しいバージョンの Atom がリリースされていた場合に自動でアップデートします。"
+      }
+      {
+        _id: 'core.autoHideMenuBar'
+        title: "メニューバーを自動的に隠す"
+        desc: "メニューバーを自動的に隠して Alt キーで切り替えます。この設定は Windows と Linux でのみサポートされます。"
+      }
+      {
+        _id: 'core.closeDeletedFileTabs'
+        title: "削除されたファイルのタブを閉じる"
+        desc: "Atom の外部でファイルが削除された場合、対応するエディタを閉じます。"
+      }
+      {
+        _id: 'core.closeEmptyWindows'
+        title: "空になったウインドウをタブと同様に閉じる"
+        desc: "ウインドウ内にタブもペインもない状態でタブを閉じるコマンドを与えた場合、ウインドウを閉じます。"
+      }
+      {
+        _id: 'core.destroyEmptyPanes'
+        title: "空になったペインを自動的に閉じる"
+        desc: "最後に開いていたタブを閉じた場合、ペインも閉じます。"
+      }
+      {
+        _id: 'core.excludeVcsIgnoredPaths'
+        title: "バージョン管理システムによって無視されたパスを除外する"
+        desc: "現在のプロジェクトで使用中のバージョン管理システムによって無視されたファイルとディレクトリが、あいまい検索や検索、置換の中で無視されるようになります。
+               例えば Git を使用しているプロジェクトでは .gitignore ファイルで定義されたパスがそれにあたります。
+               個々のパッケージにもこの設定とは別にファイルやフォルダを無視する設定があるかもしれません。"
+      }
+      {
+        _id: 'core.fileEncoding'
+        title: "ファイルエンコーディング"
+        desc: "ファイルを読み書きするためのデフォルトキャラクタセットを指定します。"
+      }
+      {
+        _id: 'core.fileSystemWatcher'
+        title: "ファイルシステムウォッチャ"
+        desc: "ファイルシステムの変更を監視するために使用される内部的な実装を選択します。変更をエミュレートすると、Atom 以外のアプリケーションにより発生したイベントは全て失われますが、クラッシュやフリーズの防止に役立ちます。"
+        select:
+          native: "ネイティブオペレーティングシステム API"
+          atom: "Atom イベントによりエミュレート"
+      }
+      {
+        _id: 'core.followSymlinks'
+        title: "シンボリックリンクをたどる"
+        desc: "あいまい検索でファイルを検索・開く時に使用されます。"
+      }
+      {
+        _id: 'core.ignoredNames'
+        title: "無視するファイル"
+        desc: "無視する glob パターンを列挙します。マッチしたファイルとディレクトリは、あいまい検索やツリービューで表示されなくなります。
+               個々のパッケージにもこの設定とは別にファイルやフォルダを無視する設定があるかもしれません。"
+      }
+      {
+        _id: 'core.openEmptyEditorOnStart'
+        title: "起動時に新規エディタを開く"
+        desc: "起動時に新規のエディタを自動的に開きます。"
+      }
+      {
+        _id: 'core.packagesWithKeymapsDisabled'
+        title: "キーマップが無効化されたパッケージ"
+      }
+      {
+        _id: 'core.projectHome'
+        title: "プロジェクトホーム"
+        desc: "プロジェクト群を配置するディレクトリを指定します。パッケージジェネレータで作成されたパッケージはデフォルトでここが格納先となります。"
+      }
+      {
+        _id: 'core.reopenProjectMenuCount'
+        title: "プロジェクト履歴の表示数"
+        desc: "「プロジェクトを再開」に表示するプロジェクト履歴の数を指定します。"
+      }
+      {
+        _id: 'core.restorePreviousWindowsOnStart'
+        title: "起動時に前回のウィンドウを復元する"
+        desc: "'no' の場合、空の環境が読み込まれます。'yes' の場合、アイコンまたは <code>atom</code> コマンドにより起動した時に Atom の全てのウィンドウを前回の状態に復元します。他の方法で起動した場合は空の環境が読み込まれます。'always' の場合、Atom の起動方法に関わらず全てのウィンドウを前回の状態に復元します。"
+        select:
+          no: "no"
+          yes: "yes"
+          always: "always"
+      }
+      {
+        _id: 'core.telemetryConsent'
+        title: "Atom チームに遠隔測定結果を送信する"
+        desc: "使用統計データと障害レポートを Atom チームに送信して機能向上に役立てることを許可します。"
+        select:
+          limited: "匿名で限定された使用統計データと障害レポートの送信を許可する"
+          no: "遠隔測定結果を送信しない"
+          undecided: "まだ決まっていない（次回起動時に再確認）"
+      }
+      {
+        _id: 'core.titleBar'
+        title: "タイトルバー"
+        desc: "実験的な機能: <code>custom</code> タイトルバーは、テーマカラーに適応するタイトルバーです。<code>custom-inset</code> を選択した場合、パディングが追加されます。<code>hidden</code> を選択する事で、タイトルバーを完全に隠す事も可能です。<br>注意: custom または hidden のに切り替えると、いくつかの機能が損なわれる可能性があります。<br>この設定を有効にするには Atom の再起動が必要です。"
+        select:
+          native: "native"
+          custom: "custom"
+          "custom-inset": "custom-inset"
+          hidden: "hidden"
+      }
+      {
+        _id: 'core.useProxySettingsWhenCallingApm'
+        title: "APM を呼ぶ時にプロキシ設定を使う"
+        desc: "apm コマンドを呼ぶ時に、検出したプロキシ設定を使います。"
+      }
+      {
+        _id: 'core.versionPinnedPackages'
+        title: "バージョン固定のパッケージ"
+        desc: "自動アップデートを行わないインストール済みパッケージの一覧です。"
+      }
+      {
+        _id: 'core.useCustomTitleBar'
+        title: "カスタムタイトルバーを使う"
+        desc: "テーマに対応したカスタムタイトルバーを使用します。<br>注意: プロキシアイコンは含みません。<br>この設定を有効にするには Atom の再起動が必要です。"
+      }
+      {
+        _id: 'core.warnOnLargeFileLimit'
+        title: "重いファイルを開く時に警告するサイズ"
+        desc: "指定したファイルサイズ（メガバイト）より大きなファイルを開く前に警告します。"
+      }
+      {
+        _id: 'editor.atomicSoftTabs'
+        title: "アトミック ソフトタブ"
+        desc: "カーソル移動の時、ソフトタブインデントの空白をタブ幅でスキップします。"
+      }
+      {
+        _id: 'editor.autoIndent'
+        title: "自動インデント"
+        desc: "新しい行を挿入（改行）した時、カーソル位置を自動的にインデントした位置に移動します。"
+      }
+      {
+        _id: 'editor.autoIndentOnPaste'
+        title: "ペースト時に自動インデント"
+        desc: "ペーストしたテキストを直前の行のインデントを基準に自動的にインデントします。"
+      }
+      {
+        _id: 'editor.backUpBeforeSaving'
+        title: "保存前にバックアップを取る"
+        desc: "ファイルの保存中に I/O エラーが発生した場合にファイルの内容が失われないよう、バックアップ用の一時コピーを作成します。"
+      }
+      {
+        _id: 'editor.confirmCheckoutHeadRevision'
+        title: "変更を破棄して HEAD リビジョンに戻す時に確認する"
+        desc: "コマンド `Editor: Checkout Head Revision` を使用して HEAD リビジョンをチェックアウトし現在の変更内容を破棄する前に確認ダイアログを表示します。"
+      }
+      {
+        _id: 'editor.fontFamily'
+        title: "フォント"
+        desc: "フォントファミリ"
+      }
+      {
+        _id: 'editor.fontSize'
+        title: "フォントサイズ"
+        desc: "フォントサイズ (px)"
+      }
+      {
+        _id: 'editor.invisibles.cr'
+        title: "不可視文字 キャリッジ・リターン (Cr)"
+        desc: "キャリッジ・リターン（Microsoftスタイルの行末文字）として描画する文字（「不可視文字を表示」を有効にしている場合）"
+      }
+      {
+        _id: 'editor.invisibles.eol'
+        title: "不可視文字 改行 (Eol)"
+        desc: "改行 (\\n) として描画する文字（「不可視文字を表示」を有効にしている場合）"
+      }
+      {
+        _id: 'editor.invisibles.space'
+        title: "不可視文字 スペース"
+        desc: "スペース（行頭以前と行末以降）として描画する文字（「不可視文字を表示」を有効にしている場合）"
+      }
+      {
+        _id: 'editor.invisibles.tab'
+        title: "不可視文字 タブ"
+        desc: "ハードタブ（\\t）として描画する文字（「不可視文字を表示」を有効にしている場合）"
+      }
+      {
+        _id: 'editor.lineHeight'
+        title: "行の高さ"
+        desc: "行の高さ (数値)"
+      }
+      {
+        _id: 'editor.maxScreenLineLength'
+        title: "画面行の最大長さ"
+        desc: "ソフトラッピングが適用される前のエディタウィンドウの最大幅を文字数で定義します。"
+      }
+      {
+        _id: 'editor.nonWordCharacters'
+        title: "単語の一部として扱わない文字"
+        desc: "単語の境界を定めるための文字"
+      }
+      {
+        _id: 'editor.preferredLineLength'
+        title: "右端ガイドの位置"
+        desc: "「右端ガイドの位置でソフトラップ」が有効な場合にテキストを折り返す位置を文字数で指定します。"
+      }
+      {
+        _id: 'editor.scrollPastEnd'
+        title: "最終行を超えてスクロール"
+        desc: "エディタに最終行が表示された地点でスクロールを止めないようにします。"
+      }
+      {
+        _id: 'editor.scrollSensitivity'
+        title: "スクロール速度"
+        desc: "マウスやトラックパッドでエディタをスクロールする時の速度"
+      }
+      {
+        _id: 'editor.showCursorOnSelection'
+        title: "選択時にカーソルを表示する"
+        desc: "選択された項目がある時にカーソルを表示します。"
+      }
+      {
+        _id: 'editor.showIndentGuide'
+        title: "インデントガイドを表示"
+        desc: "エディタ内にインデントガイドを表示します。"
+      }
+      {
+        _id: 'editor.showInvisibles'
+        title: "不可視文字を表示"
+        desc: "タブやスペース、改行などの見えない文字を記号として表示します。"
+      }
+      {
+        _id: 'editor.showLineNumbers'
+        title: "行番号を表示"
+        desc: "エディタ内に行番号を表示します。"
+      }
+      {
+        _id: 'editor.softTabs'
+        title: "ソフトタブ"
+        desc: "タブ文字の代わりにスペースを連ねて挿入します。"
+      }
+      {
+        _id: 'editor.softWrap'
+        title: "ソフトラップ"
+        desc: "ウィンドウ幅を超えた時に折り返して表示します。「右端ガイドの位置でソフトラップ」が有効の場合は「右端ガイドの位置」の設定値で折り返されます。"
+      }
+      {
+        _id: 'editor.softWrapAtPreferredLineLength'
+        title: "右端ガイドの位置でソフトラップ"
+        desc: "「右端ガイドの位置」の設定値で折り返します。この設定はソフトラップがグローバルまたは作業中の言語で有効な場合のみ適用されます。"
+      }
+      {
+        _id: 'editor.softWrapHangingIndent'
+        title: "ソフトラップ時のインデント幅"
+        desc: "「ソフトラップ」が有効な場合、ラップされた行に対し指定した文字数だけ追加でインデントします。"
+      }
+      {
+        _id: 'editor.tabLength'
+        title: "タブ幅"
+        desc: "タブを表す際に使用されるスペースの数"
+      }
+      {
+        _id: 'editor.tabType'
+        title: "タブタイプ"
+        desc: 'タブキーを押した際に挿入する文字の形式を指定します。"soft" はソフトタブ（Space）、"hard" はハードタブ（Tab）が使用されます。
+               "auto" はエディタがバッファの内容を自動判別します。自動判別は最初に見つけた行（コメント行を除く）の先頭にあるスペースで行われます。
+               自動判別できなかった場合はソフトタブが設定されます。'
+      }
+      {
+        _id: 'editor.undoGroupingInterval'
+        title: "取り消し操作単位"
+        desc: "ひとまとまりの操作と認識させて取り消し履歴に登録する間隔（ミリ秒）"
+      }
+      {
+        _id: 'editor.zoomFontWhenCtrlScrolling'
+        title: "Ctrl スクロールでフォントサイズを変える"
+        desc: "コントロールキーを押しながらスクロールを上下することでエディタのフォントサイズを拡大/縮小します。"
+      }
+      {
+        _id: 'system.windows.file-handler'
+        title: "ファイルハンドラとして登録する"
+        desc: "ファイルタイプとの簡単な関連付けのために\"このアプリケーションで開く\"に Atom を表示します。"
+      }
+      {
+        _id: 'system.windows.shell-menu-files'
+        title: "ファイルコンテキストメニューに表示する"
+        desc: "\"Atom で開く\"をファイルエクスプローラのファイル用コンテキストメニューに追加します。"
+      }
+      {
+        _id: 'system.windows.shell-menu-folders'
+        title: "フォルダコンテキストメニューに表示する"
+        desc: "\"Atom で開く\"をファイルエクスプローラのフォルダ用コンテキストメニューに追加します。"
+      }
+    ]
+  }
+  system: {
+    notes: "これらの設定項目では、Atom とオペレーティングシステムの統合方法を決定します。"
+  }
+  keymaps: {
+    notes: {
+      text1: "これらのキーバインドは　"
+      text2: "をクリック（コピー）して"
+      text3: " キーマップファイル "
+      text4: "に貼り付けると上書きできます。"
+      _template: "${text1} <icon /> ${text2} <a>${text3}</a> ${text4}"
+    }
+    "search-bar-placeholder": "キーバインディングの検索"
+    "table-header-keystroke": "キーストローク"
+    "table-header-command": "コマンド"
+    "table-header-source": "ソース"
+    "table-header-selector": "セレクタ"
+  }
+  packages: {
+    searchBarText: 'パッケージを名前でフィルタリング'
+  }
+  themes: {
+    notes: {
+      text1: "Atom は"
+      text2: " スタイルシート "
+      text3: "を編集してスタイルを変更することもできます。"
+      _template: "${text1} <a>${text2}</a> ${text3}"
+    }
+    title1: "インターフェーステーマ"
+    description1: "タブ、ステータスバー、ツリービューとドロップダウンのスタイルを変更します。"
+    title2: "シンタックステーマ"
+    description2: "テキストエディタの内側のスタイルを変更します。"
+    searchBarText: 'テーマを名前でフィルタリング'
+  }
+  updates: {
+    "check-updates": "すべてアップデート"
+    "update-all": "アップデートをチェック"
+    "checking-updates": "アップデートを確認中..."
+    "all-updated-message": "インストールしたパッケージはすべて最新です！"
+  }
+  install: {
+    notes: {
+      text1: "パッケージ・テーマは "
+      text2: "に公開されており "
+      text3: " にインストールされます。"
+      _template: "${text1}<a>atom.io</a>${text2} /path/to/pkg ${text3}"
+    }
+    "searchbar-placeholder": "パッケージを検索する"
+    "btn-packages": "パッケージ"
+    "btn-themes": "テーマ"
+  }
+  "control-btns":{
+    install: "インストール"
+    update: "Update to"
+    setting: "設定"
+    uninstall: "アンインストール"
+    disable: "無効にする"
+    enable: "有効にする"
+  }

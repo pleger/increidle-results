@@ -1,0 +1,15 @@
+[submodule ".atom/packages/gpp-compiler"]
+	path = .atom/packages/gpp-compiler
+	url = https://github.com/IncreIDLE/gpp-compiler
+[submodule ".atom/packages/tree-view"]
+	path = .atom/packages/tree-view
+	url = https://github.com/IncreIDLE/tree-view
+[submodule ".atom/packages/increidle-news"]
+	path = .atom/packages/increidle-news
+	url = https://github.com/IncreIDLE/increidle-news
+[submodule ".atom/packages/welcome"]
+	path = .atom/packages/welcome
+	url = https://github.com/IncreIDLE/welcome
+[submodule ".atom/packages/ide-clangd"]
+	path = .atom/packages/ide-clangd
+	url = https://github.com/IncreIDLE/ide-clangd

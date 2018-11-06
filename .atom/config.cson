@@ -1,0 +1,16 @@
+"*":
+  "atom-i18n":
+    customMenuI18nPath: "C:\\Users\\Ismael\\DrivePUCV\\atom-x64-windows\\.atom\\packages\\atom-i18n\\def\\custom_menu.cson"
+    locale: "es"
+  "atom-ide-ui":
+    use:
+      "atom-ide-console": "never"
+      "atom-ide-debugger": "never"
+      "atom-ide-terminal": "never"
+  core:
+    telemetryConsent: "no"
+    uriHandlerRegistration: "always"
+  "exception-reporting":
+    userId: "e893547a-aa1e-4d18-8dd7-60418ea95a9f"
+  "gpp-compiler":
+    cCompiler: "clang"

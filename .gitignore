@@ -1,0 +1,8 @@
+**/desktop.ini
+**/.DS_Store
+.atom/storage
+.atom/blob-store
+.atom/.apm/_cacache/*
+.atom/.apm/_locks/*
+Atom\ x64/
+LLVM/
