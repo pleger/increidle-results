@@ -30,7 +30,7 @@ module.exports = [
   }
   {
     type: "button"
-    icon: "file-text"
+    icon: "file-code"
     callback: "tree-view:increidle-add-file"
     tooltip: "Nuevo Archivo"
     iconset: "fa"

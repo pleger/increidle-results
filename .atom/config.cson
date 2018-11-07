@@ -8,6 +8,10 @@
       "atom-ide-debugger": "never"
       "atom-ide-terminal": "never"
   core:
+    disabledPackages: [
+      "github"
+    ]
+    openEmptyEditorOnStart: false
     telemetryConsent: "no"
     uriHandlerRegistration: "always"
   "exception-reporting":
